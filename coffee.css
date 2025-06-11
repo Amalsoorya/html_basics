@@ -1,0 +1,220 @@
+
+ .grid-container{
+            display: grid;
+        }
+        
+        .firstone{
+            column-span: 40px;
+            
+            color: azure;
+            transition: 0.3s;
+        }
+        
+        .bruce{
+            position: absolute;
+            top: 50%;
+              bottom:8px;
+              left: 60px;
+              font-size: 2rem;
+              transform: translateY(-50%);
+              padding: 20px;
+              
+
+        }
+        
+.hero-btn:hover{
+background-color: chocolate;
+color: azure;
+}
+
+            .hover-text{
+            display: flex;
+            justify-content: flex-end;
+             text-decoration: none;
+             gap: 20px;
+             margin-right: 1rem;
+             
+
+            }
+            .navbar{
+                display: grid;
+                grid-template-columns: auto 1fr;
+                align-items: center;
+                background-color: black;
+            }
+            .hover-text a{
+                color: azure;
+                text-decoration: none;
+                
+
+            }
+            .hover-text a:hover{
+                color: chocolate;
+            }
+         .fa-solid{
+         
+         } 
+
+            .fa-solid:hover{
+                color: chocolate;
+            }
+        .p1{
+            color: rgb(241, 104, 12);
+            text-align: left;
+            position: absolute;
+            margin-top: 0px;
+        }
+
+        /* .p2{ 
+            color:rgb(199, 199, 199);
+            text-align: left;
+            font-size: 2rem
+        };*/
+        .div1{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .div1 img{
+            width: 40px;
+            height: 40px;
+            margin-left: 5px;
+        }
+        .about{
+            display: flex;
+            color: rgb(117, 117, 117);
+            margin-top: 5rem;
+        }
+        .about img{
+            width: 600px;
+            height: 500px;
+        }
+        .about1{
+            margin-left:1rem;
+            margin-top: 10px;
+        }
+        .button1{
+            background-color: black;
+            color: azure;
+            height: 30px;
+            width: 100px;
+        }
+        .button1:hover{
+            color: rgb(255, 255, 255);
+            background-color: chocolate;
+        }
+        .button2{
+            background-color: black;
+            color: azure;
+            height: 30px;
+            width: 110px;
+            justify-content:center;
+        }
+        .button2:hover{
+            color: rgb(236, 236, 236);
+            background-color: chocolate;
+        }
+        .fa-solid{
+            justify-content: center;
+        }
+        .grid-container2{
+            display: grid;
+            grid-template-columns:auto auto auto;
+          gap: 30px;
+        }
+        .grid-container2 img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+          
+        }
+        .button4{
+            background-color:black;
+            color: azure;
+            height: 40px;
+            width: 100px;
+        }
+        .button4:hover{
+            color: azure;
+            background-color: chocolate;
+            
+        }
+
+        .services1{
+        text-align: center;  
+        padding: 20px;
+        border-radius: 10px; 
+        }
+         .grid-container3{
+            display:flex;
+            grid-template-columns: auto auto auto;
+            gap: 30px;
+            font-style: italic;
+             display:flex;
+            justify-content: center;
+            
+        } 
+       .grid-container3 img{
+        width: 30px;
+        height:30px ;
+        margin-top: 40px;
+       }
+        
+        .services1{
+            width:300px ;
+            height: 400px;
+
+        }
+            .icon1{
+            width: 300px;
+             height:250px;
+             border-radius:10px;
+             align-items: center;
+            margin: 0 auto;
+              background-color:chocolate;
+           color: azure;
+            
+
+             }
+             .icon2{
+                 width:300px;
+             height:250px;
+             border-radius:10px;
+             align-items: center;
+            margin: 0 auto;
+              background-color:chocolate;
+           color: azure;
+            
+             }
+            .icon3{
+                 width: 300px;
+             height:250px;
+             border-radius:10px;
+             align-items: center;
+            margin: 0 auto;
+              background-color:chocolate;
+           color: azure;
+             }
+             /* testmonial */
+
+             .Testimonial-card{
+               display: grid;
+               border: 2px solid transparent;
+               padding: 40px;
+               border-image: 
+               linear-gradient(to right top, black 25%, transparent 25%, transparent 75%, black 75%) 1;
+              border-image-slice: 1;
+  }
+
+      .quote-icon{
+        font-size:60px;
+        color: chocolate;
+      }
+             
+      .contact2{
+        display:grid;
+        grid-template-columns: auto auto;
+      }
+      /* .button5{
+        height: 100px;
+      } */
